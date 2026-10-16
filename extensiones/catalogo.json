@@ -1,0 +1,46 @@
+{
+  "nota": "Catálogo de extensiones de VTCompi. Lo lee el gestor de extensiones del programa.",
+  "extensiones": [
+    {
+      "id": "autonomos",
+      "nombre": "Facturación de autónomos",
+      "version": "1.0.0",
+      "categoria": "Facturación",
+      "precio": "Incluida",
+      "resumen": "Lo facturado por cada titular en Uber, Bolt y Cabify frente al límite de módulos, con previsión a fin de año.",
+      "descripcion": "Para flotas en las que cada coche está a nombre de un **autónomo en módulos**, que no puede pasar de **250.000 €** al año (ni de **125.000 €** facturados a empresas).\n\n- Suma lo facturado por cada titular en **Uber** (resúmenes fiscales), **Bolt** (precio de los viajes sin IVA) y **Cabify** (facturas), con el método que use su gestor.\n- **Previsión a 31 de diciembre** con la temporada de su año anterior, y aviso de cuándo pasaría el límite y cuánto puede facturar al mes para no pasarlo.\n- **Actualizar autónomos** baja solo los documentos que faltan de cada plataforma.\n- Informe en PDF para el gestor.",
+      "autor": "VTCompi",
+      "icono": "icono.png",
+      "capturas": [
+        "captura-1.png"
+      ],
+      "novedades": "Primera versión como extensión: la misma página de siempre, ahora se puede activar o apagar desde el gestor.",
+      "requiere": "4.0.0",
+      "api": 1,
+      "seccion_config": "autonomos",
+      "activa_de_entrada": false
+    },
+    {
+      "id": "efectivo",
+      "nombre": "Efectivo recaudado",
+      "version": "—",
+      "categoria": "Conductores",
+      "precio": "Próximamente",
+      "resumen": "Lo que cobra cada conductor en efectivo, lo que entrega y lo que le queda pendiente.",
+      "descripcion": "Para no llevar en una libreta lo que los conductores cobran en mano.\n\n- **Lo cobrado en efectivo** por cada conductor, viaje a viaje, sacado de Uber, Bolt y Cabify.\n- **Entregas**: cuándo y cuánto entrega cada uno, con su justificante.\n- **Pendiente** de cada conductor al día, y aviso si pasa de un tope.\n- Cierre semanal o mensual para cuadrar con la caja.",
+      "icono": "icono.png",
+      "motivo": "Aún no está hecha. Si te interesa, pídela: así sé por dónde empezar."
+    },
+    {
+      "id": "retribucion",
+      "nombre": "Retribución mensual",
+      "version": "—",
+      "categoria": "Conductores",
+      "precio": "Próximamente",
+      "resumen": "La nómina y los incentivos de cada conductor, calculados con lo que ha hecho en el mes.",
+      "descripcion": "La parte variable sale sola de los datos que ya tiene el programa.\n\n- **Base y complementos** de cada conductor.\n- **Incentivos** por facturación, por €/hora o por horas, con tramos configurables.\n- **Descuentos**: lo que no entregó en efectivo, el uso indebido confirmado en la Revisión.\n- Hoja del mes por conductor, lista para la gestoría.",
+      "icono": "icono.png",
+      "motivo": "Aún no está hecha. Si te interesa, pídela: así sé por dónde empezar."
+    }
+  ]
+}
